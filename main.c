@@ -106,7 +106,7 @@ int main()
                             printf("| ");
                             piece *copy = board[i][j].stack;
                             while (!(copy == NULL)) {
-                                show(copy->color);
+                                printf("%c "copy->color);
                                 copy = copy->next;
                             }
                             }
